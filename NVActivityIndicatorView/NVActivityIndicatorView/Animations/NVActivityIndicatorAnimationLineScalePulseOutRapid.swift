@@ -33,7 +33,7 @@ class NVActivityIndicatorAnimationLineScalePulseOutRapid: NVActivityIndicatorAni
         let lineSize = size.width / 9
         let x = (layer.bounds.size.width - size.width) / 2
         let y = (layer.bounds.size.height - size.height) / 2
-        let duration: CFTimeInterval = 0.9
+        let duration: CFTimeInterval = 1.9
         let beginTime = CACurrentMediaTime()
         let beginTimes = [0.5, 0.25, 0, 0.25, 0.5]
         let timingFunction = CAMediaTimingFunction(controlPoints: 0.11, 0.49, 0.38, 0.78)
